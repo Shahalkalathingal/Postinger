@@ -14,3 +14,5 @@ Author : Shahal Kalathingal
 - Mongodb
 
 The app is called Postinger
+
+ - [Live demo](postinger.netlify.app)
