@@ -19,4 +19,4 @@ The app is called Postinger
 
  - [Live demo](http://postinger.netlify.app)
 
-Please give this repository a start and follow me !!
+Please give this repository a star and follow me !!
