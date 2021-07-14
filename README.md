@@ -5,7 +5,7 @@ Note : This is the front-end part of the website to see the back-end part change
 
 Author : Shahal Kalathingal
 
-And please note this not the production build of the react part to see the production build repository [Click here](https://github.com/Shahalkalathingal/Postinger-production-build)
+And please note that this is not the production build of the react part.to see the production build repository [Click here](https://github.com/Shahalkalathingal/Postinger-production-build)
 
 # Technologies Used in the Frontend :-
 - React
@@ -18,3 +18,5 @@ And please note this not the production build of the react part to see the produ
 The app is called Postinger
 
  - [Live demo](http://postinger.netlify.app)
+
+Please give this repository a start and follow me !!
