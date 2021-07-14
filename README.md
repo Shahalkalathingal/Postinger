@@ -15,4 +15,4 @@ Author : Shahal Kalathingal
 
 The app is called Postinger
 
- - [Live demo](postinger.netlify.app)
+ - [Live demo](http://postinger.netlify.app)
