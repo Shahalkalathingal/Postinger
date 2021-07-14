@@ -17,6 +17,6 @@ And please note that this is not the production build of the react part.to see t
 
 The app is called Postinger
 
- - [Live demo](http://postinger.netlify.app)
+ - [Live demo](http://postinger.ml)
 
 Please give this repository a star and follow me !!
