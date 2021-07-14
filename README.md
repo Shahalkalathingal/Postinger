@@ -12,3 +12,7 @@ Author : ShahalKalathingal
 - Nodejs
 - Express
 - Mongodb
+
+The app is called postinger
+
+[Live demo](postinger.netlify.app)
