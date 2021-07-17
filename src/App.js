@@ -26,7 +26,6 @@ function App() {
     user: undefined,
     token: undefined,
   });
-
   
   const [load, setLoad] = useState(0)
 
@@ -97,7 +96,7 @@ function App() {
   } else{
     return (
       <div >
-      <div className="hide-on-med-and-down preloader-wrapper big active" style={{ left: "55.6rem", top: '19.3rem' }}>
+      <div className="hide-on-med-and-down preloader-wrapper big active" style={{ left: "57.8rem", top: '19.3rem' }}>
 
           <div className="spinner-layer spinner-blue">
               <div className="circle-clipper left">
@@ -149,7 +148,7 @@ function App() {
       </div>
 
       {/** On Meduim */}
-      <div className="hide-on-large-only hide-on-small-only  preloader-wrapper big active" style={{ left: "29rem", top: '19.5rem' }}>
+      <div className="hide-on-large-only hide-on-small-only  preloader-wrapper big active" style={{ left: "32rem", top: '19.5rem' }}>
 
           <div className="spinner-layer spinner-blue">
               <div className="circle-clipper left">

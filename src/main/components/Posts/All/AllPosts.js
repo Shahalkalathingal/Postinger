@@ -132,7 +132,7 @@ function AllPosts() {
         setLoad(18)
         return (
             <div >
-                <div className="hide-on-med-and-down preloader-wrapper big active" style={{ left: "38rem", top: '14rem' }}>
+                <div className="hide-on-med-and-down preloader-wrapper big active" style={{ left: "40rem", top: '14rem' }}>
 
                     <div className="spinner-layer spinner-blue">
                         <div className="circle-clipper left">
@@ -184,7 +184,7 @@ function AllPosts() {
                 </div>
 
                 {/** On Meduim */}
-                <div className="hide-on-large-only hide-on-small-only  preloader-wrapper big active" style={{ left: "24rem", top: '14rem' }}>
+                <div className="hide-on-large-only hide-on-small-only  preloader-wrapper big active" style={{ left: "26.3rem", top: '14rem' }}>
 
                     <div className="spinner-layer spinner-blue">
                         <div className="circle-clipper left">

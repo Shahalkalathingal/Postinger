@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useContext, useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, useParams,useHistory } from "react-router-dom";
 import UserContext from "../../contexts/UserContext";
 import url from "../../serverUrl";
 import Follow from "../Posts/Follow/Follow";
@@ -22,13 +22,18 @@ function Profile() {
   const [posts, setPosts] = useState(false);
   const [Views, setViews] = useState(2);
 
+  const history = useHistory()
   const params = useParams();
-  useEffect(() => {
+  useEffect(() => {;
     const getUserData = async () => {
       try {
         let User
-        if(userData.user._id){
-           User = await axios.get(`${url}/profile/getUser/${userData.user._id}`);
+        if(window.location.pathname === '/myprofile'){
+          if(userData.user._id){
+            User = await axios.get(`${url}/profile/getUser/${userData.user._id}`);
+          }else{
+            return history.replace('/')
+          }
         }else{
           User = await axios.get(`${url}/profile/getUser/${params.id}`);
         }
@@ -154,7 +159,7 @@ function Profile() {
       setLoad(24);
       return (
         <div >
-                <div className="hide-on-med-and-down preloader-wrapper big active" style={{ left: "38rem", top: '14rem' }}>
+                <div className="hide-on-med-and-down preloader-wrapper big active" style={{ left: "40rem", top: '14rem' }}>
 
                     <div className="spinner-layer spinner-blue">
                         <div className="circle-clipper left">
@@ -206,7 +211,7 @@ function Profile() {
                 </div>
 
                 {/** On Meduim */}
-                <div className="hide-on-large-only hide-on-small-only  preloader-wrapper big active" style={{ left: "24rem", top: '14rem' }}>
+                <div className="hide-on-large-only hide-on-small-only  preloader-wrapper big active" style={{ left: "26.3rem", top: '14rem' }}>
 
                     <div className="spinner-layer spinner-blue">
                         <div className="circle-clipper left">
