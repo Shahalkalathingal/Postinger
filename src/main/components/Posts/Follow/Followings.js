@@ -66,168 +66,164 @@ function Followings({ view, userId, profile }) {
           </div>
         ) : (
           //else
-          <div>
-            <div
-              className="hide-on-med-and-down preloader-wrapper big active"
-              style={{ left: "38rem" }}
-            >
+          <div >
+          <div className="hide-on-med-and-down preloader-wrapper big active" style={{ left: "38rem", top: '14rem' }}>
+
               <div className="spinner-layer spinner-blue">
-                <div className="circle-clipper left">
-                  <div className="circle"></div>
-                </div>
-                <div className="gap-patch">
-                  <div className="circle"></div>
-                </div>
-                <div className="circle-clipper right">
-                  <div className="circle"></div>
-                </div>
+                  <div className="circle-clipper left">
+                      <div className="circle"></div>
+                  </div>
+                  <div className="gap-patch">
+                      <div className="circle"></div>
+                  </div>
+                  <div className="circle-clipper right">
+                      <div className="circle"></div>
+                  </div>
               </div>
 
               <div className="spinner-layer spinner-red">
-                <div className="circle-clipper left">
-                  <div className="circle"></div>
-                </div>
-                <div className="gap-patch">
-                  <div className="circle"></div>
-                </div>
-                <div className="circle-clipper right">
-                  <div className="circle"></div>
-                </div>
+                  <div className="circle-clipper left">
+                      <div className="circle"></div>
+                  </div>
+                  <div className="gap-patch">
+                      <div className="circle"></div>
+                  </div>
+                  <div className="circle-clipper right">
+                      <div className="circle"></div>
+                  </div>
               </div>
 
               <div className="spinner-layer spinner-yellow">
-                <div className="circle-clipper left">
-                  <div className="circle"></div>
-                </div>
-                <div className="gap-patch">
-                  <div className="circle"></div>
-                </div>
-                <div className="circle-clipper right">
-                  <div className="circle"></div>
-                </div>
+                  <div className="circle-clipper left">
+                      <div className="circle"></div>
+                  </div>
+                  <div className="gap-patch">
+                      <div className="circle"></div>
+                  </div>
+                  <div className="circle-clipper right">
+                      <div className="circle"></div>
+                  </div>
               </div>
 
               <div className="spinner-layer spinner-green">
-                <div className="circle-clipper left">
-                  <div className="circle"></div>
-                </div>
-                <div className="gap-patch">
-                  <div className="circle"></div>
-                </div>
-                <div className="circle-clipper right">
-                  <div className="circle"></div>
-                </div>
+                  <div className="circle-clipper left">
+                      <div className="circle"></div>
+                  </div>
+                  <div className="gap-patch">
+                      <div className="circle"></div>
+                  </div>
+                  <div className="circle-clipper right">
+                      <div className="circle"></div>
+                  </div>
               </div>
-            </div>
-
-            {/** On Meduim */}
-            <div
-              className="hide-on-large-only hide-on-small-only  preloader-wrapper big active"
-              style={{ left: "26rem" }}
-            >
-              <div className="spinner-layer spinner-blue">
-                <div className="circle-clipper left">
-                  <div className="circle"></div>
-                </div>
-                <div className="gap-patch">
-                  <div className="circle"></div>
-                </div>
-                <div className="circle-clipper right">
-                  <div className="circle"></div>
-                </div>
-              </div>
-
-              <div className="spinner-layer spinner-red">
-                <div className="circle-clipper left">
-                  <div className="circle"></div>
-                </div>
-                <div className="gap-patch">
-                  <div className="circle"></div>
-                </div>
-                <div className="circle-clipper right">
-                  <div className="circle"></div>
-                </div>
-              </div>
-
-              <div className="spinner-layer spinner-yellow">
-                <div className="circle-clipper left">
-                  <div className="circle"></div>
-                </div>
-                <div className="gap-patch">
-                  <div className="circle"></div>
-                </div>
-                <div className="circle-clipper right">
-                  <div className="circle"></div>
-                </div>
-              </div>
-
-              <div className="spinner-layer spinner-green">
-                <div className="circle-clipper left">
-                  <div className="circle"></div>
-                </div>
-                <div className="gap-patch">
-                  <div className="circle"></div>
-                </div>
-                <div className="circle-clipper right">
-                  <div className="circle"></div>
-                </div>
-              </div>
-            </div>
-
-            {/** On Small */}
-            <div
-              className="hide-on-med-and-up preloader-wrapper big active"
-              style={{ left: "10.5rem" }}
-            >
-              <div className="spinner-layer spinner-blue">
-                <div className="circle-clipper left">
-                  <div className="circle"></div>
-                </div>
-                <div className="gap-patch">
-                  <div className="circle"></div>
-                </div>
-                <div className="circle-clipper right">
-                  <div className="circle"></div>
-                </div>
-              </div>
-
-              <div className="spinner-layer spinner-red">
-                <div className="circle-clipper left">
-                  <div className="circle"></div>
-                </div>
-                <div className="gap-patch">
-                  <div className="circle"></div>
-                </div>
-                <div className="circle-clipper right">
-                  <div className="circle"></div>
-                </div>
-              </div>
-
-              <div className="spinner-layer spinner-yellow">
-                <div className="circle-clipper left">
-                  <div className="circle"></div>
-                </div>
-                <div className="gap-patch">
-                  <div className="circle"></div>
-                </div>
-                <div className="circle-clipper right">
-                  <div className="circle"></div>
-                </div>
-              </div>
-
-              <div className="spinner-layer spinner-green">
-                <div className="circle-clipper left">
-                  <div className="circle"></div>
-                </div>
-                <div className="gap-patch">
-                  <div className="circle"></div>
-                </div>
-                <div className="circle-clipper right">
-                  <div className="circle"></div>
-                </div>
-              </div>
-            </div>
           </div>
+
+          {/** On Meduim */}
+          <div className="hide-on-large-only hide-on-small-only  preloader-wrapper big active" style={{ left: "24rem", top: '14rem' }}>
+
+              <div className="spinner-layer spinner-blue">
+                  <div className="circle-clipper left">
+                      <div className="circle"></div>
+                  </div>
+                  <div className="gap-patch">
+                      <div className="circle"></div>
+                  </div>
+                  <div className="circle-clipper right">
+                      <div className="circle"></div>
+                  </div>
+              </div>
+
+              <div className="spinner-layer spinner-red">
+                  <div className="circle-clipper left">
+                      <div className="circle"></div>
+                  </div>
+                  <div className="gap-patch">
+                      <div className="circle"></div>
+                  </div>
+                  <div className="circle-clipper right">
+                      <div className="circle"></div>
+                  </div>
+              </div>
+
+              <div className="spinner-layer spinner-yellow">
+                  <div className="circle-clipper left">
+                      <div className="circle"></div>
+                  </div>
+                  <div className="gap-patch">
+                      <div className="circle"></div>
+                  </div>
+                  <div className="circle-clipper right">
+                      <div className="circle"></div>
+                  </div>
+              </div>
+
+              <div className="spinner-layer spinner-green">
+                  <div className="circle-clipper left">
+                      <div className="circle"></div>
+                  </div>
+                  <div className="gap-patch">
+                      <div className="circle"></div>
+                  </div>
+                  <div className="circle-clipper right">
+                      <div className="circle"></div>
+                  </div>
+              </div>
+          </div>
+
+
+          {/** On Small */}
+          <div className="hide-on-med-and-up preloader-wrapper big active" style={{ left: "9.1rem", top: "14rem" }}>
+
+              <div className="spinner-layer spinner-blue">
+                  <div className="circle-clipper left">
+                      <div className="circle"></div>
+                  </div>
+                  <div className="gap-patch">
+                      <div className="circle"></div>
+                  </div>
+                  <div className="circle-clipper right">
+                      <div className="circle"></div>
+                  </div>
+              </div>
+
+              <div className="spinner-layer spinner-red">
+                  <div className="circle-clipper left">
+                      <div className="circle"></div>
+                  </div>
+                  <div className="gap-patch">
+                      <div className="circle"></div>
+                  </div>
+                  <div className="circle-clipper right">
+                      <div className="circle"></div>
+                  </div>
+              </div>
+
+              <div className="spinner-layer spinner-yellow">
+                  <div className="circle-clipper left">
+                      <div className="circle"></div>
+                  </div>
+                  <div className="gap-patch">
+                      <div className="circle"></div>
+                  </div>
+                  <div className="circle-clipper right">
+                      <div className="circle"></div>
+                  </div>
+              </div>
+
+              <div className="spinner-layer spinner-green">
+                  <div className="circle-clipper left">
+                      <div className="circle"></div>
+                  </div>
+                  <div className="gap-patch">
+                      <div className="circle"></div>
+                  </div>
+                  <div className="circle-clipper right">
+                      <div className="circle"></div>
+                  </div>
+              </div>
+          </div>
+
+      </div>
         )}
       </React.Fragment>
     );

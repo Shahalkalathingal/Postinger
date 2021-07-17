@@ -37,7 +37,7 @@ function NavBar() {
                 </Link>
               </li>
               <li>
-                <Link to={`/profile/${userData.user._id}`} className="black-col">
+                <Link to={`/myprofile`} className="black-col">
                   <i className="material-icons">account_circle</i>
                 </Link>
               </li>
