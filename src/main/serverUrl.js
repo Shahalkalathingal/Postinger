@@ -1,4 +1,4 @@
-const url = 'http://localhost:2000'
+const url = 'https://postinger-api.herokuapp.com'
 
 
 export default url
