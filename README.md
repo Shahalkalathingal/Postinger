@@ -1,22 +1,44 @@
-# Postinger
-This is a code repository of a social media app build with the Mern stack
+# Postinger – Full-Stack MERN Social Media Application
 
-Note : This is the front-end part of the website to see the back-end part change branch to back-end
+Postinger is a full-stack social media web application built using the **MERN stack**.  
+The project was developed to simulate real-world social platform functionality, focusing on user interaction, API-driven workflows, and full-stack integration.
 
-Author : Shahal Kalathingal
+## Overview
+Postinger allows users to create accounts, publish posts, interact with content, and manage their profiles. The application is structured with a clear separation between frontend and backend, following standard full-stack web development practices.
 
-And please note that this is not the production build of the react part.to see the production build repository [Click here](https://github.com/Shahalkalathingal/Postinger-production-build)
+## Key Features
+- User authentication and authorization
+- Create, edit, and delete posts
+- Like and comment functionality
+- User profiles
+- RESTful API architecture
+- Responsive frontend interface
 
-# Technologies Used in the Frontend :-
+## Tech Stack
+**Frontend**
 - React
 
-# Technologies Used in the Backend :-
-- Nodejs
-- Express
-- Mongodb
+**Backend**
+- Node.js
+- Express.js
+- MongoDB
 
-The app is called Postinger
+## Architecture
+- Frontend and backend are maintained in separate branches
+- REST APIs handle communication between client and server
+- MongoDB is used for data persistence
 
- - [Live demo](http://postinger.ml)
+## Project Purpose
+This project was built as a **personal full-stack system** to practice and demonstrate:
+- End-to-end MERN application development
+- API design and data flow
+- Authentication and user-based features
+- Application structure and maintainability
 
-Please give this repository a star and follow me !!
+## Setup (Basic)
+1. Clone the repository  
+2. Install dependencies for frontend and backend  
+3. Configure environment variables  
+4. Run frontend and backend servers locally
+
+---
